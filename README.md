@@ -7,12 +7,15 @@ Link check automation tool.
 [![Known Vulnerabilities](https://snyk.io/test/github/dbtedman/go-link-check/badge.svg)](https://snyk.io/test/github/dbtedman/go-link-check)
 ![Go Version](https://img.shields.io/static/v1?label=Go&message=v1.13&color=blue&style=flat)
 
--   [Where to start?](#where-to-start)
--   [What options does it have?](#help)
+-   [How to use this tool?](#how-to-use-this-tool)
+-   [What options does it have?](#what-options-does-it-have)
 -   [Can I use Docker?](#can-i-use-docker)
--   [Want to lean more?](#want-to-lean-more)
+-   [How to contribute?](#how-to-contribute)
+-   [Is this project secure?](#is-this-project-secure)
+-   [How is the project structured?](#how-is-the-project-structured)
+-   [License](#license)
 
-## Where to start?
+## How to use this tool?
 
 Install necessary dependencies, build and run program:
 
@@ -57,9 +60,18 @@ Yes, [Docker](https://www.docker.com/) can be used to build and run the applicat
 docker build --tag glc:latest . && docker run -it --rm glc:latest -url="https://danieltedman.com"
 ```
 
-## Want to lean more?
+## How to contribute?
 
--   See our [Contributing Guide](CONTRIBUTING.md) for details on how this repository is developed.
--   See our [Changelog](CHANGELOG.md) for details on which features, improvements, and bug fixes have been implemented
--   See our [License](LICENSE.md) for details on how you can use the code in this repository.
--   See our [Security Guide](SECURITY.md) for details on how security is considered.
+Read our [Contributing Guide](CONTRIBUTING.md) to learn more about how to contribute to this project.
+
+## Is this project secure?
+
+Read our [Security Guide](SECURITY.md) to learn how security is considered during the development and operation of this plugin.
+
+## How is the project structured?
+
+Read our [Architecture Document](ARCHITECTURE.md) to learn how this project is structured.
+
+## License
+
+The [MIT License](./LICENSE.md) is used by this project.
