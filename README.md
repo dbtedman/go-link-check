@@ -1,11 +1,8 @@
 # [Go Link Check `glc`](https://github.com/dbtedman/go-link-check)
 
-Link check automation tool.
+> IMPORTANT: This project is no longer maintained.
 
-[![Actions Status](https://github.com/dbtedman/go-link-check/workflows/test/badge.svg)](https://github.com/dbtedman/go-link-check/actions)
-[![codecov](https://codecov.io/gh/dbtedman/go-link-check/branch/master/graph/badge.svg)](https://codecov.io/gh/dbtedman/go-link-check)
-[![Known Vulnerabilities](https://snyk.io/test/github/dbtedman/go-link-check/badge.svg)](https://snyk.io/test/github/dbtedman/go-link-check)
-![Go Version](https://img.shields.io/static/v1?label=Go&message=v1.13&color=blue&style=flat)
+Link check automation tool.
 
 -   [How to use this tool?](#how-to-use-this-tool)
 -   [What options does it have?](#what-options-does-it-have)
